@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <false/>
+            <key>size</key>
+            <string>5.4 MB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>patchUpdater</string>
+            <key>userVisibleName</key>
+            <string>Patch Updater</string>
+            <key>description</key>
+            <string>Patch Updater is an application that seamlessly manages all system patches installed using Catalina Patcher.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/patchUpdater.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>all</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>201 KB</string>
+            <key>version</key>
+            <integer>1</integer>
+            <key>patchName</key>
+            <string>legacyusb</string>
+            <key>userVisibleName</key>
+            <string>Legacy USB Support Injector</string>
+            <key>description</key>
+            <string>This patch installs custom kexts, "LegacyUSBInjector.kext" and "LegacyUSBVideoSupport.kext", onto your system, allowing legacy USB controllers to function properly under Catalina.
+
+- This update fixes an issue where some internal iSight and USB webcams may not work with Catalina</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/legacyusb.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>all</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>5.6 MB</string>
+            <key>version</key>
+            <integer>2</integer>
+            <key>patchName</key>
+            <string>TrackpadPatch</string>
+            <key>userVisibleName</key>
+            <string>Trackpad/Keyboard Patch</string>
+            <key>description</key>
+            <string>This patch restores trackpad and keyboard hotkey functionality to MacBook 5,2 systems.
+
+- This update restores full trackpad functionality and trackpad preferences support, courtesy of @parrotgeek1</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/TrackpadPatch.zip</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>MacBook5,2</string>
+            </array>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>patchedFileSums</key>
+            <dict>
+                <key>/System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTrackpad.kext/Contents/MacOS/AppleUSBTrackpad</key>
+                <string>9353bc38d035b21ee7f29ec43c8a3905d8259492</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>20.5 MB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>legacyWifi</string>
+            <key>userVisibleName</key>
+            <string>Legacy WiFi Patch</string>
+            <key>description</key>
+            <string>This patch adds support for certain legacy WiFi adapters to macOS Catalina.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/legacyWifi.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>MacBook5,1</string>
+                <string>MacBook5,2</string>
+                <string>MacBook6,1</string>
+                <string>MacBook7,1</string>
+                <string>MacBookAir3,1</string>
+                <string>MacBookAir3,2</string>
+                <string>MacBookAir4,1</string>
+                <string>MacBookAir4,2</string>
+                <string>MacBookPro5,1</string>
+                <string>MacBookPro5,2</string>
+                <string>MacBookPro5,3</string>
+                <string>MacBookPro5,4</string>
+                <string>MacBookPro5,5</string>
+                <string>MacBookPro6,1</string>
+                <string>MacBookPro6,2</string>
+                <string>MacBookPro7,1</string>
+                <string>MacBookPro8,1</string>
+                <string>MacBookPro8,2</string>
+                <string>MacBookPro8,3</string>
+                <string>Macmini4,1</string>
+                <string>Macmini5,1</string>
+                <string>Macmini5,2</string>
+                <string>Macmini5,3</string>
+                <string>iMac9,1</string>
+                <string>iMac10,1</string>
+                <string>iMac11,1</string>
+                <string>iMac11,2</string>
+                <string>iMac11,3</string>
+                <string>iMac12,1</string>
+                <string>iMac12,2</string>
+                <string>MacPro4,1</string>
+                <string>MacPro5,1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <false/>
+            <key>size</key>
+            <string>6 KB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>legacyPlatform</string>
+            <key>userVisibleName</key>
+            <string>Legacy Platform Compatibility Patch</string>
+            <key>description</key>
+            <string>This patch fixes a kernel panic issue on machines utilizing legacy platforms.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/legacyPlatform.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>Macmini3,1</string>
+                <string>MacBook5,1</string>
+                <string>MacBook5,2</string>
+                <string>MacBookAir2,1</string>
+                <string>MacBookPro5,1</string>
+                <string>MacBookPro5,2</string>
+                <string>MacBookPro5,3</string>
+                <string>MacBookPro5,4</string>
+                <string>MacBookPro5,5</string>
+                <string>MacBookPro4,1</string>
+                <string>MacPro3,1</string>
+                <string>Xserve2,1</string>
+                <string>iMac10,1</string>
+                <string>iMac9,1</string>
+                <string>iMac8,1</string>
+                <string>iMac7,1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>4 MB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>legacyAudio</string>
+            <key>userVisibleName</key>
+            <string>Legacy Audio Patch</string>
+            <key>description</key>
+            <string>This patch fixes an issue where unsupported systems would not detect the internal audio device under Catalina.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/legacyAudio.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>all</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>14.8 MB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>bcm94321Patch</string>
+            <key>userVisibleName</key>
+            <string>Broadcom BCM4321 WiFi Support Patch</string>
+            <key>description</key>
+            <string>This patch adds support for Broadcom BCM4321 WiFi cards, that were previously unsupported under Catalina.
+
+
+PLEASE NOTE:
+
+This patch includes a built-in check to verify that your machine actually contains a WiFi card that needs this patch. If your machine does NOT contain a WiFi card that requires this patch, then it will NOT be installed, despite indicating so.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/bcm94321.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>Macmini3,1</string>
+                <string>MacBookAir2,1</string>
+                <string>MacBookPro4,1</string>
+                <string>iMac8,1</string>
+                <string>iMac7,1</string>
+                <string>MacPro3,1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>426 KB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>legacyEnet</string>
+            <key>userVisibleName</key>
+            <string>Legacy Ethernet Patch</string>
+            <key>description</key>
+            <string>This patch adds support for legacy Ethernet controllers to Catalina.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/legacyEnet.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>MacBook5,1</string>
+                <string>MacBook5,2</string>
+                <string>MacBook6,1</string>
+                <string>MacBook7,1</string>
+                <string>MacBookAir2,1</string>
+                <string>MacBookAir3,1</string>
+                <string>MacBookAir3,2</string>
+                <string>MacBookPro4,1</string>
+                <string>MacBookPro5,1</string>
+                <string>MacBookPro5,2</string>
+                <string>MacBookPro5,3</string>
+                <string>MacBookPro5,4</string>
+                <string>MacBookPro5,5</string>
+                <string>MacBookPro7,1</string>
+                <string>Macmini3,1</string>
+                <string>Macmini4,1</string>
+                <string>iMac7,1</string>
+                <string>iMac8,1</string>
+                <string>iMac9,1</string>
+                <string>iMac10,1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>816 KB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>hidStall</string>
+            <key>userVisibleName</key>
+            <string>IOHIDFamily Stall Patch</string>
+            <key>description</key>
+            <string>This patch fixes an issue where some machines may hang at boot, due to IOHIDFamily.kext.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/hidStall.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array/>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>127 KB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>legacyIDE</string>
+            <key>userVisibleName</key>
+            <string>Legacy Intel IDE Controller Patch</string>
+            <key>description</key>
+            <string>This patch adds support for legacy Intel IDE/PATA controllers to Catalina.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/legacyIDE.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>MacBookPro4,1</string>
+                <string>iMac8,1</string>
+                <string>iMac7,1</string>
+                <string>MacPro3,1</string>
+                <string>Xserve2,1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>1.1 MB</string>
+            <key>version</key>
+            <integer>4</integer>
+            <key>patchName</key>
+            <string>NightShiftAndAirplayPatch</string>
+            <key>userVisibleName</key>
+            <string>Night Shift and AirPlay Patch</string>
+            <key>description</key>
+            <string>This patch will enable Night Shift on unsupported machines. It also enables AirPlay on all machines with Intel HD3000 graphics.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/NightShiftAndAirplayPatch.zip</string>
+            <key>minSystemVersion</key>
+            <string>all</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>all</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>4.1 MB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>volControlPatch</string>
+            <key>userVisibleName</key>
+            <string>Volume Control Patch</string>
+            <key>description</key>
+            <string>This patch fixes an issue where the system's volume won't change on iMac 7,1 and 8,1 systems.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/volControlPatch.zip</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>iMac8,1</string>
+                <string>iMac7,1</string>
+            </array>
+            <key>patchedFileSums</key>
+            <dict>
+                <key>/System/Library/Extensions/IOAudioFamily.kext/Contents/MacOS/IOAudioFamily</key>
+                <string>b07fddae39e49844eb1fa7740f5117aa2facc038</string>
+            </dict>
+            <key>minSystemVersion</key>
+            <string>all</string>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>73 KB</string>
+            <key>version</key>
+            <integer>2</integer>
+            <key>patchName</key>
+            <string>amdSSE4</string>
+            <key>userVisibleName</key>
+            <string>AMD Metal Driver SSE4.2 Emulation Layer</string>
+            <key>description</key>
+            <string>This patch installs "MouSSE", an SSE4.2 emulator that adds support for all Metal-compatible AMD GPUs (Radeon HD 7xxx series and later) to machines that don't support SSE4.2, such as the Mac Pro 3,1.
+
+- All credit for this patch goes to Syncretic, at https://forums.macrumors.com/members/syncretic.1173816
+- This update includes the latest release of Syncretic's MouSSE kext</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/amdSSE4.zip</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>MacPro3,1</string>
+            </array>
+            <key>patchedFileSums</key>
+            <dict>
+                <key>/Library/Extensions/AAAMouSSE.kext/Contents/MacOS/MouSSE</key>
+                <string>66938b1e0264653d89d649fe2519fd1066919e94</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>341 KB</string>
+            <key>version</key>
+            <integer>1</integer>
+            <key>patchName</key>
+            <string>BacklightPatch</string>
+            <key>userVisibleName</key>
+            <string>Backlight Control Patch</string>
+            <key>description</key>
+            <string>This patch adds support for native backlight brightness control to some unsupported machines.
+
+-This update fixes an issue where the backlight brightness setting may not stay set properly</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/BacklightPatch.zip</string>
+            <key>minSystemVersion</key>
+            <string>10.15.0</string>
+            <key>supportedMachines</key>
+            <array>
+                <string>MacBook5,2</string>
+                <string>iMac7,1</string>
+                <string>iMac8,1</string>
+                <string>iMac9,1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>370.6 MB</string>
+            <key>version</key>
+            <integer>10</integer>
+            <key>patchName</key>
+            <string>legacyGPU</string>
+            <key>userVisibleName</key>
+            <string>Legacy Video Card Patch</string>
+            <key>description</key>
+            <string>This patch adds support for most legacy non-Metal video cards to macOS Catalina.
+
+- This update fixes the long-present grey Menu Bar and Finder Sidebar light mode anomaly issue, thanks to an amazing discovery by @ASentientBot and @testheit</string>
+            <key>patchURL</key>
+            <string>https://ipfs.io/ipfs/QmdXHdBKYDgyuZG8w5aPEzhQLijKju61zKfYJqeTcbPRhf/LegacyGPU.zip</string>
+            <key>minSystemVersion</key>
+            <string>10.15.1</string>
+            <key>supportedMachines</key>
+            <array/>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>642 KB</string>
+            <key>version</key>
+            <integer>4</integer>
+            <key>patchName</key>
+            <string>LibraryValidation</string>
+            <key>userVisibleName</key>
+            <string>Library Validation Disabler Patch</string>
+            <key>description</key>
+            <string>This patch disables Library Validation on your machine. This is necessary when running 10.15.4+ on an unsupported Mac.
+
+- This update reverts to ASentientBot's original 10.15.4 release patch due to issues with opening some third-party apps.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/LibraryValidation.zip</string>
+            <key>minSystemVersion</key>
+            <string>10.15.4</string>
+            <key>supportedMachines</key>
+            <array/>
+        </dict>
+        <dict>
+            <key>kextcacheRebuildRequired</key>
+            <true/>
+            <key>size</key>
+            <string>191 KB</string>
+            <key>version</key>
+            <integer>0</integer>
+            <key>patchName</key>
+            <string>2011bklt</string>
+            <key>userVisibleName</key>
+            <string>Backlight Control Patch</string>
+            <key>description</key>
+            <string>This patch adds support for native backlight brightness control to 2011 MacBook Pro 15" and 17" systems with disabled AMD dedicated GPU.</string>
+            <key>patchURL</key>
+            <string>http://dosdude1.com/catalina/patchupdates/2011bklt.zip</string>
+            <key>patchedFileSums</key>
+            <dict>
+                <key>/System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleMuxControl.kext/Contents/MacOS/AppleMuxControl</key>
+                <string>6a5583f650876c01de49b1d8e6d9901b3ba54289</string>
+            </dict>
+            <key>supportedMachines</key>
+            <array>
+                <string>MacBookPro8,2</string>
+                <string>MacBookPro8,3</string>
+            </array>
+        </dict>
+    </array>
+</plist>
