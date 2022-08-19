@@ -453,9 +453,11 @@ This patch includes a built-in check to verify that your machine actually contai
             <key>patchURL</key>
             <string>http://dosdude1.com/catalina/patchupdates/LibraryValidation.zip</string>
             <key>minSystemVersion</key>
-            <string>10.15.4</string>
+            <string>all</string>
             <key>supportedMachines</key>
-            <array/>
+            <array>
+                <string>all</string>
+            </array>
         </dict>
         <dict>
             <key>kextcacheRebuildRequired</key>
